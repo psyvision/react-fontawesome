@@ -363,6 +363,7 @@ FontAwesomeIcon.propTypes = {
   spin: PropTypes.bool,
   symbol: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
   title: PropTypes.string,
+  titleId: PropTypes.string,
   transform: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   swapOpacity: PropTypes.bool
 };
@@ -382,6 +383,7 @@ FontAwesomeIcon.defaultProps = {
   spin: false,
   symbol: false,
   title: '',
+  titleId: '',
   transform: null,
   swapOpacity: false
 };
